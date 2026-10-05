@@ -1,0 +1,10 @@
+{
+  "name": "synthepel-r75",
+  "version": "2.2.0",
+  "description": "R_75 authenticated tick research bot using the same Deriv REST+OTP WebSocket architecture as SynthTrade Pro.",
+  "main": "bot.js",
+  "type": "commonjs",
+  "scripts": {"start":"node bot.js"},
+  "engines": {"node": ">=18"},
+  "dependencies": {"dotenv":"^16.4.5","ws":"^8.18.0"}
+}
